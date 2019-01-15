@@ -1,0 +1,39 @@
+{
+  "name": "typescript-node-app-github-api-experiment",
+  "version": "1.0.0",
+  "description": "Typescript node app to demonstrate usage of github apis",
+  "main": "index.js",
+  "bin": {
+    "gituser": "./out/index.js"
+  },
+  "scripts": {
+    "start": "tsc && node out/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepkv93/typescript-node-app-github-api-experiment.git"
+  },
+  "keywords": [
+    "github-apis",
+    "typescript",
+    "node",
+    "npm"
+  ],
+  "author": "Sandeep Vishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepkv93/typescript-node-app-github-api-experiment/issues"
+  },
+  "homepage": "https://github.com/sandeepkv93/typescript-node-app-github-api-experiment#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/request": "^2.48.1"
+  }
+}
